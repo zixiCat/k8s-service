@@ -8,14 +8,13 @@
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>3.2.9</version>
 	</parent>
-	<groupId>com.workflows.service</groupId>
-	<artifactId>workflows-service</artifactId>
+	<groupId>com.k8s.parent</groupId>
+	<artifactId>k8s-parent</artifactId>
 	<version>1.0.0</version>
-	<name>workflows-service</name>
+	<name>k8s-parent</name>
 	<packaging>pom</packaging>
-	<description>Workflows Service</description>
+	<description>K8S Parent</description>
 	<modules>
-		<module>grpc-service</module>
 		<module>k8s-service</module>
 	</modules>
 	<properties>

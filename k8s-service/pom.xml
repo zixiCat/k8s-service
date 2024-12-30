@@ -4,8 +4,8 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.workflows.service</groupId>
-        <artifactId>workflows-service</artifactId>
+        <groupId>com.k8s.parent</groupId>
+        <artifactId>k8s-parent</artifactId>
         <version>1.0.0</version>
     </parent>
     <groupId>com.k8s.service</groupId>
