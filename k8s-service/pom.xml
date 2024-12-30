@@ -59,7 +59,6 @@
         <dependency>
             <groupId>com.openapi</groupId>
             <artifactId>openapi</artifactId>
-            <version>1.0.0</version>
         </dependency>
     </dependencies>
     <build>

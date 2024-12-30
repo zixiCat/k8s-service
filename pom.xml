@@ -95,6 +95,11 @@
 				<artifactId>proto</artifactId>
 				<version>1.0.0</version>
 			</dependency>
+			<dependency>
+				<groupId>com.openapi</groupId>
+				<artifactId>openapi</artifactId>
+				<version>1.0.0</version>
+        	</dependency>
 		</dependencies>
 	</dependencyManagement>
 </project>

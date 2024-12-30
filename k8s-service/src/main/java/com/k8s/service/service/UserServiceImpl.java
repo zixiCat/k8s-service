@@ -13,4 +13,9 @@ public class UserServiceImpl implements UserApi {
     User user = new User().id(id).name("Test Name");
     return OpenAPIResponse.ok(user);
   }
+
+  public Void userPost(UserPostRequest userPostRequest) {
+    User user = new User().id(id).name("Test Name");
+    return OpenAPIResponse.ok(null);
+  }
 }
