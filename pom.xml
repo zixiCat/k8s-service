@@ -13,7 +13,7 @@
 	<version>1.0.0</version>
 	<name>k8s-parent</name>
 	<packaging>pom</packaging>
-	<description>K8S Parent</description>
+	<description>k8s Parent</description>
 	<modules>
 		<module>k8s-service</module>
 	</modules>

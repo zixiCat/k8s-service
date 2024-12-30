@@ -2,7 +2,7 @@
   "configurations": [
     {
       "type": "java",
-      "name": "K8SServiceApplication",
+      "name": "k8sServiceApplication",
       "request": "launch",
       "mainClass": "com.k8s.service.Main",
       "projectName": "k8s-service",
