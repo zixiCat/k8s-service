@@ -1,0 +1,12 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "K8SServiceApplication",
+      "request": "launch",
+      "mainClass": "com.k8s.service.Main",
+      "projectName": "k8s-service",
+      "args": "--logging.level.root=WARN"
+    }
+  ]
+}
