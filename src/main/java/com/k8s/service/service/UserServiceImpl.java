@@ -10,12 +10,7 @@ import com.openapi.common.OpenAPIResponse;
 public class UserServiceImpl implements UserApi {
 
   public OpenAPIResponse<User> userGet(Integer id) {
-    User user = new User().id(id).name("Test Name");
+    User user = new User().id(id).name("Test User");
     return OpenAPIResponse.ok(user);
-  }
-
-  public Void userPost(UserPostRequest userPostRequest) {
-    User user = new User().id(id).name("Test Name");
-    return OpenAPIResponse.ok(null);
   }
 }
