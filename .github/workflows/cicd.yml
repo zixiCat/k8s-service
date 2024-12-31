@@ -19,28 +19,11 @@ jobs:
           java-version: "17"
           distribution: "microsoft"
 
-      - name: Clone workflows-openapi
-        run: |
-          git clone https://github.com/zixiCat/workflows-openapi.git
-
-      - name: Test dir
-        run: |
-          cd ./workflows-openapi
-          pwd
-          ls
-          cd ./src/main/resources
-          pwd
-          ls
-          cd ./templates
-          pwd
-          ls
-
       - name: Build and install workflows-openapi
         run: |
+          git clone https://github.com/zixiCat/workflows-openapi.git
           chmod +x ./workflows-openapi/mvnw
           cd workflows-openapi
-          pwd
-          ls
           ./mvnw clean install
 
       - name: Build with Maven
