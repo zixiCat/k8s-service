@@ -7,7 +7,7 @@ WORKDIR /app
 # Copy the project JAR file into the container at /app
 COPY target/k8s-service-0.0.1-SNAPSHOT.jar /app/k8s-service.jar
 
-# Make port 8080 available to the world outside this container
+# Make port 9010 available to the world outside this container
 EXPOSE 9010
 
 # Run the JAR file
