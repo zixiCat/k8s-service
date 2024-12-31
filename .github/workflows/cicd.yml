@@ -25,10 +25,14 @@ jobs:
 
       - name: Test dir
         run: |
+          cd ./workflows-openapi
+          pwd
           ls
-          cd /home/runner/work/k8s-service/k8s-service/workflows-openapi/src/main/resources/templates/JavaSpring
+          cd ./src/main/resources
+          pwd
           ls
-          cd /home/runner/work/k8s-service/k8s-service/workflows-openapi/src/main/resources/templates
+          cd ./templates
+          pwd
           ls
 
       - name: Build and install workflows-openapi
