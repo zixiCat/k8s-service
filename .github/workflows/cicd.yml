@@ -19,9 +19,12 @@ jobs:
           java-version: "17"
           distribution: "microsoft"
 
+      - name: Clone workflows-openapi
+        run: |
+          git clone https://github.com/zixiCat/workflows-openapi.git
+
       - name: Test dir
         run: |
-          pwd
           ls
           cd /home/runner/work/k8s-service/k8s-service/workflows-openapi/src/main/resources/templates/JavaSpring
           ls
@@ -30,7 +33,6 @@ jobs:
 
       - name: Build and install workflows-openapi
         run: |
-          git clone https://github.com/zixiCat/workflows-openapi.git
           chmod +x ./workflows-openapi/mvnw
           cd workflows-openapi
           pwd
