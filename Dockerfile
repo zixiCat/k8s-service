@@ -8,7 +8,7 @@ WORKDIR /app
 COPY target/k8s-service-0.0.1-SNAPSHOT.jar /app/k8s-service.jar
 
 # Make port 8080 available to the world outside this container
-EXPOSE 8080
+EXPOSE 9010
 
 # Run the JAR file
 ENTRYPOINT ["java", "-jar", "k8s-service.jar"]
