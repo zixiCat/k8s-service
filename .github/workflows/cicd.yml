@@ -25,6 +25,7 @@ jobs:
           chmod +x ./workflows-openapi/mvnw
           cd workflows-openapi
           pwd
+          ls
           ./mvnw clean install
 
       - name: Build with Maven
