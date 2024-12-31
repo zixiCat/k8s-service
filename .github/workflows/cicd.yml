@@ -24,6 +24,7 @@ jobs:
           git clone https://github.com/zixiCat/workflows-openapi.git
           chmod +x ./workflows-openapi/mvnw
           cd workflows-openapi
+          ls
           ./mvnw clean install
 
       - name: Build with Maven
