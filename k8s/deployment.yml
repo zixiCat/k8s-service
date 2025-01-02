@@ -16,4 +16,4 @@ spec:
         - name: k8s-service
           image: zixicat/k8s-service:latest
           ports:
-            - containerPort: 80
+            - containerPort: 9010
