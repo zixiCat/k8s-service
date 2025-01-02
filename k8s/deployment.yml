@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: k8s-service
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: k8s-service
+  template:
+    metadata:
+      labels:
+        app: k8s-service
+    spec:
+      containers:
+        - name: k8s-service
+          image: zixicat/k8s-service:latest
+          ports:
+            - containerPort: 80
